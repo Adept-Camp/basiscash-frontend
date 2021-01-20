@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import { Bank } from '../../basis-cash';
+import { Bank } from '../../jam-cash';
 import Button from '../../components/Button';
 import Card from '../../components/Card';
 import CardContent from '../../components/CardContent';
@@ -185,6 +185,7 @@ const StyledCardWrapper = styled.div`
   display: flex;
   width: calc((900px - ${(props) => props.theme.spacing[4]}px * 2) / 3);
   position: relative;
+  margin-bottom: ${(props) => props.theme.spacing[4]}px;
 `;
 
 const StyledTitle = styled.h4`
