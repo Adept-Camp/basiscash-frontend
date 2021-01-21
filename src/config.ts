@@ -8,7 +8,7 @@ const configurations: { [env: string]: Configuration } = {
   development: {
     chainId: ChainId.RINKEBY,
     etherscanUrl: 'https://rinkeby.etherscan.io',
-    defaultProvider: 'https://rinkeby.infura.io/v3/1164ab0bd2f24c889d09e55dc0fc8137',
+    defaultProvider: 'https://rinkeby.infura.io/v3/d2ea1f1881e142b1be27da4769f52050',
     deployments: require('./jam-cash/deployments/deployments.rinkeby.json'),
     externalTokens: {
       DAI: ['0x6f5390a8cd02d83b23c5f1d594bffb9050eb4ca3', 18], // ? TODO
@@ -49,7 +49,7 @@ const configurations: { [env: string]: Configuration } = {
     // gasLimitMultiplier: 1.7,
     chainId: ChainId.RINKEBY,
     etherscanUrl: 'https://rinkeby.etherscan.io',
-    defaultProvider: 'https://rinkeby.infura.io/v3/1164ab0bd2f24c889d09e55dc0fc8137',
+    defaultProvider: 'https://rinkeby.infura.io/v3/d2ea1f1881e142b1be27da4769f52050',
     deployments: require('./jam-cash/deployments/deployments.rinkeby.json'),
     externalTokens: {
       DAI: ['0x6f5390a8cd02d83b23c5f1d594bffb9050eb4ca3', 18], // ? TODO
