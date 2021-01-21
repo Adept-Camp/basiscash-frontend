@@ -8,7 +8,7 @@ const configurations: { [env: string]: Configuration } = {
   development: {
     chainId: ChainId.RINKEBY,
     etherscanUrl: 'https://rinkeby.etherscan.io',
-    defaultProvider: 'https://rinkeby.infura.io/v3/1164ab0bd2f24c889d09e55dc0fc8137',
+    defaultProvider: 'https://rinkeby.infura.io/v3/c4ddba9e481f4e8abc663453f95d3e63',
     deployments: require('./jam-cash/deployments/deployments.rinkeby.json'),
     externalTokens: {
       DAI: ['0x6f5390a8cd02d83b23c5f1d594bffb9050eb4ca3', 18], // ? TODO
